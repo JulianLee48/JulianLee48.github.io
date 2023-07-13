@@ -1,21 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML 5 Boilerplate</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
-  </head>
-  <body>
-	<script src="index.js"></script>
-    <div class="container">
-        <form>
-            <I class="fas fa-search"></I>
-            <input type="text" placeholder="Search">
-            <button type="submit">Search</button>
-        </form>
-    </div>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anime Recommendations</title>
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css"> 
+</head>
+
+<body>
+
+  <header>
+    <h1>Anime Recommendations</h1>
+  </header>
+
+  <main>
+
+    <nav class="search-container">
+      <h2>Find Anime</h2>
+      
+      <form role="search">
+        <label for="search">Search</label>
+        <input type="search" id="search" name="search" placeholder="Search anime...">
+        <button type="submit">Search</button> 
+      </form>
+
+    </nav>
+    
+    <!-- Main content -->
+    <section class="recommendations">
+      <!-- Anime recommendations here -->
+    </section>
+
+  </main>
+  
+</body>
+
 </html>
