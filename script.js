@@ -1,6 +1,8 @@
-// Get search form and input
-const form = document.querySelector('form');
-const searchInput = document.querySelector('input');
+// Use ID to target search form 
+const form = document.getElementById('search-form');
+
+// Use ID to target search input
+const searchInput = document.getElementById('search');
 
 // Listen for submit event
 form.addEventListener('submit', (e) => {
